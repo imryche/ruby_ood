@@ -3,7 +3,8 @@ class Gear
   def initialize(chainring, cog, rim, tire)
     @chainring = chainring
     @cog = cog
-    @wheel = Wheel.new(rim, tire)
+    @rim = rim
+    @tire = tire
   end
 
   def ratio
